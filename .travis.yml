@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+- stable
+cache:
+  directories:
+  - node_modules
+script:
+- npm test
+- npm run build
+branches:
+  only:
+  - master
+deploy:
+  provider: heroku
+  app: tut-mozhe-buty-vasha-reklama
+  api_key:
+    secure: g4v2B6la9atuujUWaFQh1n2BOCZRFWlxpxC05JSB5ryEzEc4t43BREK5xW7URbtQFS0KMJWMwtGUpDNmyJFWqwNbwrlcuIyz/GY+CJhXBlv+YwNQdlc4v8RcZYWT5Armf/pl6Dsq5qxT2O8GjgktevlcE5yDta2wl2zi7C32TabY7X++v9StdpH5Td/UkQKqiVDXWoAl5Igi6oPsiDL7MNBG6QoNP2sab1oDRA+4mNVjICy9laxtrC/1richycuB1CecLLcBs1VmKd82YLJuAlVZqbHvgBkBsKITJte0pDOBLIN/rWs9bu4tkaVjKFGpRUNRK3a91w9qvq+cUVWQGqzwpg6QJj6Ha4MzKoAb+0MdMJTv/EHw8DF1fv/wL2NDPZP23l9qcvyiCFZxJtO0ax1FE0PGw3S+4l+L8tlPDrxfLqbQwdkzvjFh/wKe5oWxOBn72c50lgIo1Hxwj0UcBIsqlQtomWf5hf4MRj2RdS5I7OOqqfN9BQXJwUenrmjS8+St++ZNUuFUjYq4vkks5mnWmwo7lBS8VBt/ec6RKbjw3FsKIYM/GjR/gucyckglWs9hORu6ZYj/J1aGS9+nnVCeArLu2vObw2+W41xCOdQWSyR1DLhXltuxeKpTLnOWRR5nHu4XoV+tSkgPkApJ7P+careT4KrAbwQCDAOsh+E=
