@@ -1,0 +1,16 @@
+@import './plugins/_variables';
+
+.button {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  color: $white;
+  padding: 0.3em 1.3em;
+  border-radius: 0.5em;
+}
