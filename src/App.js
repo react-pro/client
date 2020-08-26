@@ -1,24 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useEffect} from 'react';
 import './App.css';
+import { RegisterPage } from "./components/registration";
+import { Redirect, Route, BrowserRouter as Router, Switch} from "react-router-dom";
+import { history } from './components/_helpers/history'
+import { HomePage } from "./components/home";
+import {useDispatch, useSelector} from "react-redux";
+import {alertActions} from "./components/alerts/actions";
+import LoginPage from "./components/login";
 
-function App() {
+const App = () => {
+  const alert = useSelector(state => state.alert);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    history.listen((location, action) => {
+      dispatch(alertActions.clear());
+    });
+  }, );
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {alert.message &&
+      <div>{alert.message}</div>
+      }
+      <Router history={history}>
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route path="/login" component={LoginPage} />
+          <Route path="/register" component={RegisterPage} />
+          <Redirect from="*" to="/" />
+        </Switch>
+      </Router>
     </div>
   );
 }
