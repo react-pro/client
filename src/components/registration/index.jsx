@@ -29,7 +29,7 @@ function RegisterPage() {
   }
 
   return (
-    <div style={{ width: "40%", margin: "0 auto" }}>
+    <div style={{ width: "40%", margin: "3% auto" }}>
       <h2>Register</h2>
       <form name="form" onSubmit={handleSubmit}>
         <div className="form-group">

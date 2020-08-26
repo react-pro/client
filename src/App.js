@@ -43,7 +43,7 @@ const App = () => {
           <Route exact path='/resume' component={Resume} />
           <Redirect from="*" to="/" />
         </Switch>
-        <Footer />
+        {/*<Footer />*/}
       </Router>
     </div>
   );

@@ -32,7 +32,7 @@ function LoginPage() {
   }
 
   return (
-    <div style={{ width: "35%", margin: "0 auto" }}>
+    <div style={{ width: "35%", margin: "3% auto" }}>
       <h2>Login</h2>
       <form name="form" onSubmit={handleSubmit}>
         <div className="form-group">

@@ -1,7 +1,7 @@
 @import './../../styles/plugins/variables';
 
 .header {
-  background-color: #191919;
+  background-color: transparent;
 }
 
 .nav {
@@ -22,16 +22,16 @@
   }
 
   &__link {
-    color: #ffd300;
+    color: black;
 
     &:hover,
     &:active {
-      color: darken(#ffd300, 10%);
+      color: darken(#006f71, 10%);
       text-decoration: none;
     }
 
     &:focus {
-      color: #ff3c00;
+      color: #006f71;
     }
   }
 }
