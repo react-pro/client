@@ -55,7 +55,7 @@ function RegisterPage() {
         </div>
         <div className="form-group">
           <button className="btn btn-primary">
-            {registering && <span className="spinner"></span>}
+            {registering && <span className="spinner"> </span>}
             Register
           </button>
           <Link to={"/"} className="btn">Cancel</Link>

@@ -6,8 +6,8 @@ export const alertActions = {
   clear
 };
 
-function success(message) {
-  return { type: ALERT_SUCCESS, message };
+function success(message, link) {
+  return { type: ALERT_SUCCESS, message, link };
 }
 
 function error(message) {
