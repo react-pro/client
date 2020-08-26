@@ -1,0 +1,53 @@
+@import './../../../../styles/plugins/variables';
+
+.technology {
+
+  &__title {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 36px;
+    margin: 0;
+  }
+
+  &__circular {
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+  }
+
+  &__item {
+    position: relative;
+    margin-bottom: 24px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: $white;
+    &:hover {
+      transform: scale(1.03, 1.03);
+    }
+  }
+
+  &__link {
+    &:hover {
+      background-color: #383838;
+      text-decoration: none;
+    }
+  }
+
+  &__info {
+    padding: 12px;
+    background: rgba(44, 47, 60, 0.8);
+    box-shadow: 0 1px 2px 0 rgba(29, 30, 38, 0.1), 0 2px 10px 0 rgba(29, 30, 38, 0.15);
+    border-radius: 6px;
+    text-align: center;
+  }
+
+  &__name {
+    margin: 0;
+    text-transform: uppercase;
+    color: #ffd300;
+  }
+
+  &__description {
+    padding: 10px;
+  }
+}
