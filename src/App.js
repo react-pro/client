@@ -5,6 +5,7 @@ import Header from './shared/header/Header';
 import Footer from './shared/footer/Footer';
 import Home from './components/home/Home';
 import About from './components/about/About';
+import Quiz from './components/quiz/Quiz';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
+        <Route exact path="/quiz" component={Quiz} />
       </Switch>
       <Footer />
     </BrowserRouter>
