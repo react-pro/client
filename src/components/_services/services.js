@@ -1,12 +1,23 @@
-import {URL_LOGIN, URL_REGISTRATION} from "../../endpoints";
-
+import {URL_LOGIN, URL_REGISTRATION, URL_USERS} from "../../endpoints";
 
 export const userService = {
   login,
   logout,
   register,
+  sendResults
   // getById,
 };
+
+function sendResults(id, results) {
+  const requestOptions = {
+    method: 'POST',
+    headers: {'Authorization': `JWT ${JSON.parse(localStorage.getItem('user')).token}`},
+    body: JSON.stringify({ results })
+  };
+
+  return fetch(`${URL_USERS}/${id}/skillset`, requestOptions)
+    .then(handleResponse)
+}
 
 function login(email, password) {
   const requestOptions = {
@@ -25,6 +36,7 @@ function login(email, password) {
 
 function logout() {
   localStorage.removeItem('user');
+  localStorage.removeItem('id');
 }
 
 // function getById(id) {
