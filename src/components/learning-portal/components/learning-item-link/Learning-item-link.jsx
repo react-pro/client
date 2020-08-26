@@ -8,7 +8,7 @@ const LearningItemLink = (link) => {
             <Row>
                 <Col lg="3" md="3" xs="12">
                 
-                    <img src={`${link.link.image}`} className="source__image"/>
+                    <img alt='i-learning' src={`${link.link.image}`} className="source__image"/>
                 </Col>
                 <Col lg="9" md="9" xs="12">
                      <a className="source__link" href={`${link.link.source}`} target='_blank' rel='noopener noreferrer'>

@@ -7,3 +7,9 @@ const USERS = '/api/users'
 export const URL_REGISTRATION = URL + REGISTRATION
 export const URL_LOGIN = URL + LOGIN
 export const URL_USERS = URL + USERS
+
+const USER_SKILLS = ''
+const UPDATE_USER_SKILLS = ''
+
+export const URL_USER_SKILLS = URL + USER_SKILLS
+export const URL_UPDATE_USER_SKILLS = URL + UPDATE_USER_SKILLS

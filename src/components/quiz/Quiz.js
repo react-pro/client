@@ -5,7 +5,8 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import {useDispatch} from "react-redux";
 import {sendQuizResults} from "./store/actions";
 
-const Quiz = () => {
+const Quiz = props => {
+	// const history = useHistory();
 	const [questions] = useState([
 		{
 			question: 'For explaining, which new technology is used?',
@@ -571,6 +572,7 @@ const Quiz = () => {
 				direction: direction.answer
 			}
 		];
+		props.history.push('/resume');
 
 		console.log(response);
 		const id = localStorage.getItem('id');
