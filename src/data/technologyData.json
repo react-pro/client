@@ -43,7 +43,7 @@
             "id": "1",
             "name": "HTML and CSS: Design and Build Websites",
             "source": "https://www.w3schools.com/",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "image": "https://cdn.shopify.com/s/files/1/0051/7692/products/ABA-cover-4_100x@3x.png?v=1463456131",
             "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
@@ -63,9 +63,9 @@
         "links": [
           {
             "id": "1",
-            "name": "W3School",
-            "source": "https://www.w3schools.com/",
-            "image": "https://i.imgur.com/papcQzP.png",
+            "name": "HTML Academy",
+            "source": "https://htmlacademy.ru/",
+            "image": "https://hsto.org/getpro/moikrug/uploads/company/336/560/124/logo/medium_baa7033d0621de693676325174643202.png",
             "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
@@ -101,7 +101,7 @@
             "id": "2",
             "name": "HTML and CSS: Design and Build Websites",
             "source": "https://www.w3schools.com/",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "image": "https://goalkicker.com/HTML5Book/HTML5Grow.png",
             "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           }
         ]
@@ -110,7 +110,7 @@
         "id": "3",
         "name": "Css",
         "description": "Master Writing Professional and Modern CSS",
-        "technologyScore": "80",
+        "technologyScore": "65",
         "links": [
           {
             "id": "1",
@@ -159,13 +159,13 @@
         "id": "4",
         "name": "Javascript",
         "description": "Master Writing Professional and Modern JavaScript",
-        "technologyScore": "80",
+        "technologyScore": "35",
         "links": [
           {
             "id": "1",
-            "name": "W3School",
-            "source": "https://www.w3schools.com/",
-            "image": "https://i.imgur.com/papcQzP.png",
+            "name": "CodeWars",
+            "source": "https://www.codewars.com/dashboard",
+            "image": "https://camo.githubusercontent.com/c6341567c3ede1b4ee0935509a378c482153026f/687474703a2f2f7777772e736f66746c61622e6e7475612e67722f7e6e69636b69652f696d616765732f6c6f676f2f636f6465776172732e706e67",
             "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
@@ -195,14 +195,14 @@
             "id": "1",
             "name": "HTML and CSS: Design and Build Websites",
             "source": "https://www.w3schools.com/",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "image": "https://media.proglib.io/wp-uploads/2017/05/cover.png",
             "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "2",
             "name": "HTML and CSS: Design and Build Websites",
             "source": "https://www.w3schools.com/",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "image": "https://books.adrianmejia.com/dsajs-data-structures-algorithms-javascript/images/dsajs-cover-320h2.png",
             "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           }
         ]
@@ -211,11 +211,11 @@
         "id": "5",
         "name": "Angular",
         "description": "Master Writing Professional and Modern Angular",
-        "technologyScore": "80",
+        "technologyScore": "100",
         "links": [
           {
             "id": "1",
-            "name": "W3School",
+            "name": "RD School",
             "source": "https://www.w3schools.com/",
             "image": "https://i.imgur.com/papcQzP.png",
             "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
@@ -246,14 +246,14 @@
             "id": "1",
             "name": "HTML and CSS: Design and Build Websites",
             "source": "https://www.w3schools.com/",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "image": "https://angularbooks.com/img/angular6book.png",
             "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "2",
             "name": "HTML and CSS: Design and Build Websites",
             "source": "https://www.w3schools.com/",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/71%2BBpjfbeqL.__BG0,0,0,0_FMpng_AC_UL600_SR504,600_.jpg",
             "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           }
         ]
@@ -262,7 +262,7 @@
         "id": "6",
         "name": "React",
         "description": "Master Writing Professional and Modern Raact",
-        "technologyScore": "80",
+        "technologyScore": "90",
         "links": [
           {
             "id": "1",
@@ -298,14 +298,14 @@
             "id": "1",
             "name": "HTML and CSS: Design and Build Websites",
             "source": "https://www.w3schools.com/",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "image": "https://i.pinimg.com/originals/bc/f1/0a/bcf10a14f69c4680be8540e4fcdbd49f.png",
             "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "2",
             "name": "HTML and CSS: Design and Build Websites",
             "source": "https://www.w3schools.com/",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "image": "https://goalkicker.com/ReactJSBook/ReactJSGrow.png",
             "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           }
         ]
@@ -350,14 +350,14 @@
             "id": "1",
             "name": "HTML and CSS: Design and Build Websites",
             "source": "https://www.w3schools.com/",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "image": "https://git-scm.com/images/progit2.png",
             "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "2",
             "name": "HTML and CSS: Design and Build Websites",
             "source": "https://www.w3schools.com/",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "image": "https://static.packt-cdn.com/products/9781789138337/graphics/04286d42-fee8-4a1f-becd-2d3570a65660.png",
             "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           }
         ]
@@ -366,7 +366,7 @@
         "id": "8",
         "name": "Vue.js",
         "description": "Master Writing Professional and Modern Vue.js",
-        "technologyScore": "80",
+        "technologyScore": "35",
         "links": [
           {
             "id": "1",
@@ -402,14 +402,14 @@
             "id": "1",
             "name": "HTML and CSS: Design and Build Websites",
             "source": "https://www.w3schools.com/",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "image": "https://d2sis3lil8ndrq.cloudfront.net/books/511d99a8-ef5f-4f9e-b230-61b8ef491a06.png",
             "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "2",
             "name": "HTML and CSS: Design and Build Websites",
             "source": "https://www.w3schools.com/",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "image": "https://d2sis3lil8ndrq.cloudfront.net/books/ac8aafd9-00a1-4fa7-8d33-264e338a9626.png",
             "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           }
         ]
