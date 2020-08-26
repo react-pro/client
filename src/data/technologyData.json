@@ -20,19 +20,38 @@
             "id": "2",
             "name": "FreeCodeCamp",
             "source": "https://www.freecodecamp.org/",
-            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "3",
             "name": "Linkedin Course",
             "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "3",
             "name": "Coursera",
             "source": "https://www.coursera.org/learn/web-development",
-            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
+          }
+        ],
+        "books": [
+          {
+            "id": "1",
+            "name": "HTML and CSS: Design and Build Websites",
+            "source": "https://www.w3schools.com/",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
+          },
+          {
+            "id": "2",
+            "name": "HTML and CSS: Design and Build Websites",
+            "source": "https://www.w3schools.com/",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           }
         ]
       },
@@ -46,25 +65,44 @@
             "id": "1",
             "name": "W3School",
             "source": "https://www.w3schools.com/",
-            "image": "https://i.imgur.com/papcQzP.png"
+            "image": "https://i.imgur.com/papcQzP.png",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "2",
             "name": "FreeCodeCamp",
             "source": "https://www.freecodecamp.org/",
-            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg","description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "3",
             "name": "Linkedin Course",
             "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "3",
             "name": "Coursera",
             "source": "https://www.coursera.org/learn/web-development",
-            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
+          }
+        ],
+        "books": [
+          {
+            "id": "1",
+            "name": "HTML and CSS: Design and Build Websites",
+            "source": "https://www.w3schools.com/",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
+          },
+          {
+            "id": "2",
+            "name": "HTML and CSS: Design and Build Websites",
+            "source": "https://www.w3schools.com/",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           }
         ]
       },
@@ -78,7 +116,8 @@
             "id": "1",
             "name": "W3School",
             "source": "https://www.w3schools.com/",
-            "image": "https://i.imgur.com/papcQzP.png"
+            "image": "https://i.imgur.com/papcQzP.png",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "2",
@@ -97,6 +136,22 @@
             "name": "Coursera",
             "source": "https://www.coursera.org/learn/web-development",
             "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
+          }
+        ],
+        "books": [
+          {
+            "id": "1",
+            "name": "HTML and CSS: Design and Build Websites",
+            "source": "https://www.w3schools.com/",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
+          },
+          {
+            "id": "2",
+            "name": "HTML and CSS: Design and Build Websites",
+            "source": "https://www.w3schools.com/",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           }
         ]
       },
@@ -110,25 +165,45 @@
             "id": "1",
             "name": "W3School",
             "source": "https://www.w3schools.com/",
-            "image": "https://i.imgur.com/papcQzP.png"
+            "image": "https://i.imgur.com/papcQzP.png",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "2",
             "name": "FreeCodeCamp",
             "source": "https://www.freecodecamp.org/",
-            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "3",
             "name": "Linkedin Course",
             "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "3",
             "name": "Coursera",
             "source": "https://www.coursera.org/learn/web-development",
-            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
+          }
+        ],
+        "books": [
+          {
+            "id": "1",
+            "name": "HTML and CSS: Design and Build Websites",
+            "source": "https://www.w3schools.com/",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
+          },
+          {
+            "id": "2",
+            "name": "HTML and CSS: Design and Build Websites",
+            "source": "https://www.w3schools.com/",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           }
         ]
       },
@@ -142,25 +217,44 @@
             "id": "1",
             "name": "W3School",
             "source": "https://www.w3schools.com/",
-            "image": "https://i.imgur.com/papcQzP.png"
+            "image": "https://i.imgur.com/papcQzP.png",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "2",
             "name": "FreeCodeCamp",
             "source": "https://www.freecodecamp.org/",
-            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "3",
             "name": "Linkedin Course",
             "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "3",
             "name": "Coursera",
             "source": "https://www.coursera.org/learn/web-development",
             "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
+          }
+        ],
+        "books": [
+          {
+            "id": "1",
+            "name": "HTML and CSS: Design and Build Websites",
+            "source": "https://www.w3schools.com/",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
+          },
+          {
+            "id": "2",
+            "name": "HTML and CSS: Design and Build Websites",
+            "source": "https://www.w3schools.com/",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           }
         ]
       },
@@ -174,25 +268,45 @@
             "id": "1",
             "name": "W3School",
             "source": "https://www.w3schools.com/",
-            "image": "https://i.imgur.com/papcQzP.png"
+            "image": "https://i.imgur.com/papcQzP.png",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "2",
             "name": "FreeCodeCamp",
             "source": "https://www.freecodecamp.org/",
-            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "3",
             "name": "Linkedin Course",
             "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "3",
             "name": "Coursera",
             "source": "https://www.coursera.org/learn/web-development",
-            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
+          }
+        ],
+        "books": [
+          {
+            "id": "1",
+            "name": "HTML and CSS: Design and Build Websites",
+            "source": "https://www.w3schools.com/",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
+          },
+          {
+            "id": "2",
+            "name": "HTML and CSS: Design and Build Websites",
+            "source": "https://www.w3schools.com/",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           }
         ]
       },
@@ -206,25 +320,45 @@
             "id": "1",
             "name": "W3School",
             "source": "https://www.w3schools.com/",
-            "image": "https://i.imgur.com/papcQzP.png"
+            "image": "https://i.imgur.com/papcQzP.png",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "2",
             "name": "FreeCodeCamp",
             "source": "https://www.freecodecamp.org/",
-            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "3",
             "name": "Linkedin Course",
             "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "3",
             "name": "Coursera",
             "source": "https://www.coursera.org/learn/web-development",
-            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
+          }
+        ], 
+        "books": [
+          {
+            "id": "1",
+            "name": "HTML and CSS: Design and Build Websites",
+            "source": "https://www.w3schools.com/",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
+          },
+          {
+            "id": "2",
+            "name": "HTML and CSS: Design and Build Websites",
+            "source": "https://www.w3schools.com/",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           }
         ]
       },
@@ -238,25 +372,45 @@
             "id": "1",
             "name": "W3School",
             "source": "https://www.w3schools.com/",
-            "image": "https://i.imgur.com/papcQzP.png"
+            "image": "https://i.imgur.com/papcQzP.png",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "2",
             "name": "FreeCodeCamp",
             "source": "https://www.freecodecamp.org/",
-            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "3",
             "name": "Linkedin Course",
             "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "3",
             "name": "Coursera",
             "source": "https://www.coursera.org/learn/web-development",
-            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
+          }
+        ],
+        "books": [
+          {
+            "id": "1",
+            "name": "HTML and CSS: Design and Build Websites",
+            "source": "https://www.w3schools.com/",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
+          },
+          {
+            "id": "2",
+            "name": "HTML and CSS: Design and Build Websites",
+            "source": "https://www.w3schools.com/",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31aX81I6vnL._SX351_BO1,204,203,200_.jpg",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           }
         ]
       }
