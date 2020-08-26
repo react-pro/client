@@ -11,7 +11,10 @@ export const userService = {
 function sendResults(id, results) {
   const requestOptions = {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: {
+      'Content-Type': 'application/json' ,
+      'Authorization': `${localStorage.getItem('user').token}`
+    },
     body: JSON.stringify({ results })
   };
 

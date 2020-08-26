@@ -482,15 +482,34 @@ const Quiz = () => {
 				}
 			],
 			correctAnswer: 1
+		},
+		{
+			question: 'In what direction do you want to develop?',
+			id: 21,
+			category: 'direction',
+			answers: [
+				{
+					answer: 'frontend',
+					id: 1
+				},
+				{
+					answer: 'backend',
+					id: 2
+				},
+				{
+					answer: 'frameworks',
+					id: 3
+				}
+			],
+			correctAnswer: null
 		}
 	]);
 
-  const [answers, setAnswers] = useState([]);
-  const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [activeAnswer, setActiveAnswer] = useState(null);
-  const [currentAnswer, setCurrentAnswer] = useState(null);
-  const [isQuizFinished, setIsQuizFinished] = useState(false);
-
+	const [answers, setAnswers] = useState([]);
+	const [currentQuestion, setCurrentQuestion] = useState(0);
+	const [activeAnswer, setActiveAnswer] = useState(null);
+	const [currentAnswer, setCurrentAnswer] = useState(null);
+	const [isQuizFinished, setIsQuizFinished] = useState(false);
 	const dispatch = useDispatch();
 
   const nextQuestionHandler = () => {
@@ -507,45 +526,56 @@ const Quiz = () => {
     setAnswers((prev) => prev.concat(currentAnswer));
   };
 
-  const answerClickHandler = (answer, index) => {
-    setActiveAnswer(index);
-    setCurrentAnswer({
-      id: questions[currentQuestion].id,
-      category: questions[currentQuestion].category,
-      isCorrect: answer.id === questions[currentQuestion].correctAnswer,
-    });
-  };
+	const answerClickHandler = (answer, index) => {
+		setActiveAnswer(index);
+		if (questions[currentQuestion].category === 'direction') {
+			setCurrentAnswer({
+				id: questions[currentQuestion].id,
+				category: questions[currentQuestion].category,
+				answer: answer.answer
+			});
+		} else {
+			setCurrentAnswer({
+				id: questions[currentQuestion].id,
+				category: questions[currentQuestion].category,
+				isCorrect: answer.id === questions[currentQuestion].correctAnswer
+			});
+		}
+	};
 
-  const finishQuizHandler = () => {
-    const html = answers.filter((answer) => answer.category === 'html');
-    const internet = answers.filter((answer) => answer.category === 'internet');
-    const css = answers.filter((answer) => answer.category === 'css');
-    const javascript = answers.filter((answer) => answer.category === 'javascript');
+	const finishQuizHandler = () => {
+		const html = answers.filter(answer => answer.category === 'html');
+		const internet = answers.filter(answer => answer.category === 'internet');
+		const css = answers.filter(answer => answer.category === 'css');
+		const javascript = answers.filter(answer => answer.category === 'javascript');
+		const direction = answers.filter(answer => answer.category === 'direction')[0];
 
-    const response = [
-      {
-        name: 'html',
-        level: (html.filter((answer) => answer.isCorrect).length / html.length) * 100,
-      },
-      {
-        name: 'internet',
-        level: (internet.filter((answer) => answer.isCorrect).length / internet.length) * 100,
-      },
-      {
-        name: 'css',
-        level: (css.filter((answer) => answer.isCorrect).length / css.length) * 100,
-      },
-      {
-        name: 'javascript',
-        level: (javascript.filter((answer) => answer.isCorrect).length / javascript.length) * 100,
-      },
-    ];
+		const response = [
+			{
+				name: 'html',
+				level: (html.filter(answer => answer.isCorrect).length / html.length) * 100
+			},
+			{
+				name: 'internet',
+				level: (internet.filter(answer => answer.isCorrect).length / internet.length) * 100
+			},
+			{
+				name: 'css',
+				level: (css.filter(answer => answer.isCorrect).length / css.length) * 100
+			},
+			{
+				name: 'javascript',
+				level: (javascript.filter(answer => answer.isCorrect).length / javascript.length) * 100
+			},
+			{
+				direction: direction.answer
+			}
+		];
 
 		console.log(response);
 		const id = localStorage.getItem('id');
 		dispatch(sendQuizResults(id, response));
   };
-
 
   return (
     <Container>

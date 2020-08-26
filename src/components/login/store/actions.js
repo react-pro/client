@@ -16,6 +16,7 @@ function login(email, password) {
     userService.login(email, password)
       .then(
         user => {
+          console.log(user)
           dispatch(success(user.user));
           localStorage.setItem('id', user.user._id)
           history.push('/');
