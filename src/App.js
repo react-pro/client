@@ -25,11 +25,11 @@ const App = () => {
 
   return (
     <div className="App">
-      <Header />
-      {alert.message &&
-      <div>{alert.message}</div>
-      }
       <Router history={history}>
+        <Header />
+        {alert.message &&
+        <div>{alert.message}</div>
+        }
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/login" component={LoginPage} />
@@ -39,8 +39,8 @@ const App = () => {
           <Route exact path='/resume' component={Resume} />
           <Redirect from="*" to="/" />
         </Switch>
+        <Footer />
       </Router>
-      <Footer />
     </div>
   );
 }
