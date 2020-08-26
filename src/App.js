@@ -8,9 +8,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {alertActions} from "./components/alerts/actions";
 import LoginPage from "./components/login";
 import Header from './shared/header/Header';
-import Footer from './shared/footer/Footer';
 import About from './components/about/About';
-import Quiz from './components/quiz/Quiz';
 import Resume from './components/resume/Resume';
 import Alert from "react-bootstrap/Alert";
 import Test from "./components/test/Test";
@@ -43,7 +41,6 @@ const App = () => {
           <Route exact path='/resume' component={Resume} />
           <Redirect from="*" to="/" />
         </Switch>
-        {/*<Footer />*/}
       </Router>
     </div>
   );

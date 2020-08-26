@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
 const Quiz = () => {
-	const [questions, setQuestions] = useState([
+	const [questions] = useState([
 		{
 			question: 'For explaining, which new technology is used?',
 			id: 1,
