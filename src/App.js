@@ -9,6 +9,7 @@ import {alertActions} from "./components/alerts/actions";
 import LoginPage from "./components/login";
 import Header from './shared/header/Header';
 import About from './components/about/About';
+import Quiz from './components/quiz/Quiz';
 import Resume from './components/resume/Resume';
 import Alert from "react-bootstrap/Alert";
 
