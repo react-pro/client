@@ -572,7 +572,7 @@ const Quiz = props => {
 				direction: direction.answer
 			}
 		];
-		props.history.push('/resume');
+		// props.history.push('/resume');
 
 		console.log(response);
 		const id = localStorage.getItem('id');
