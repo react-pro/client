@@ -58,6 +58,8 @@ function register(user) {
     body: JSON.stringify(user)
   };
 
+  console.log("URL_REGISTRATION");
+  console.log(URL_REGISTRATION);
   return fetch(`${URL_REGISTRATION}`, requestOptions).then(handleResponse);
 }
 

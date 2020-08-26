@@ -10,7 +10,7 @@ const Technology = ({ test }) => {
 
   return (
     <Col lg="3" md="6" xs="12">
-      <Link to={`/test/${test.id}`} className="technology__link">
+      <Link to={`/learning/${test.id}`} className="technology__link">
         <div className="technology__item">
           <div className="technology__info">
               <div className="technology__circular">

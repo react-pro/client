@@ -17,7 +17,7 @@ class TechnologyList extends Component {
   }
 
   findTechnologyByCategory(tests, category) {
-    return tests.filter(technology => technology.name === category)[0].testPreviewDTOSet;
+    return tests.filter(technology => technology.name === category)[0].technologies;
   }
 
   render() {
@@ -29,7 +29,7 @@ class TechnologyList extends Component {
     }
 
     if (!tests) {
-      return <div>No tests yet...</div>;
+      return <div>No techmologies yet...</div>;
     }
 
     const skills = this.findTechnologyByCategory(tests, 'Skills');
