@@ -1,11 +1,12 @@
 import './resume.scss';
 
 import React from "react";
+import TechnologyList from './components/technology-list/Technology-list';
 
 const Resume = () => {
   return (
-    <div>
-      <h1 className="resume__title">Resume</h1>
+    <div className="resume">
+      <TechnologyList />
     </div>
   );
 };

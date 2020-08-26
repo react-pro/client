@@ -10,9 +10,10 @@ import LoginPage from "./components/login";
 import Header from './shared/header/Header';
 import Footer from './shared/footer/Footer';
 import About from './components/about/About';
-import Test from './components/test/Test';
+import Quiz from './components/quiz/Quiz';
 import Resume from './components/resume/Resume';
 import Alert from "react-bootstrap/Alert";
+import Test from "./components/test/Test";
 
 const App = () => {
   const alert = useSelector(state => state.alert);

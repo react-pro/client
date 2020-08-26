@@ -1,0 +1,37 @@
+@import './../../styles/plugins/variables';
+
+.header {
+  background-color: #191919;
+}
+
+.nav {
+  height: 100%;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    margin: 5px 0 5px auto;
+  }
+
+  &__item {
+    padding: 20px;
+    list-style-type: none;
+    text-transform: uppercase;
+  }
+
+  &__link {
+    color: #ffd300;
+
+    &:hover,
+    &:active {
+      color: darken(#ffd300, 10%);
+      text-decoration: none;
+    }
+
+    &:focus {
+      color: #ff3c00;
+    }
+  }
+}
