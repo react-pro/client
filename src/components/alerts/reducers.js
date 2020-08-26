@@ -5,7 +5,8 @@ export function alert(state = {}, action) {
     case ALERT_SUCCESS:
       return {
         type: 'alert-success',
-        message: action.message
+        message: action.message,
+        link: action.link
       };
     case ALERT_ERROR:
       return {

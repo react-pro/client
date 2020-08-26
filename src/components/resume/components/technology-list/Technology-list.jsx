@@ -29,7 +29,7 @@ class TechnologyList extends Component {
     }
 
     if (!tests) {
-      return <div>No tests yet...</div>;
+      return <div>No techmologies yet...</div>;
     }
 
     const skills = this.findTechnologyByCategory(tests, 'Skills');

@@ -13,9 +13,9 @@ const LearningItem = (props) => {
   return (
     <Container>
         <Row>
-            <Col lg="12" md="12" xs="12" className="learning-item source">
-                <h1>{techology.name}</h1>
-                <ul className="source__list">
+            <Col lg="12" md="12" xs="12" className="learning-item">
+                <h1 className="learning-item__name">{techology.name}</h1>
+                <ul className="learning-item__list source">
                 {links.map(link => (
                 <LearningItemLink key={link.id} link={link} />
                 ))}

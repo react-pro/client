@@ -1,5 +1,4 @@
 import './learning-portal.scss';
-// import learningData from "./../../data/learningData.json";
 
 import React from 'react';
 import { Container, Col, Row } from 'reactstrap';

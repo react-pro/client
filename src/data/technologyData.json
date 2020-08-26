@@ -11,13 +11,28 @@
         "links": [
           {
             "id": "1",
-            "name": "w3school",
-            "source": "https://www.w3schools.com/"
+            "name": "W3School",
+            "source": "https://www.w3schools.com/",
+            "image": "https://i.imgur.com/papcQzP.png",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
           },
           {
             "id": "2",
-            "name": "w3school 2",
-            "source": "https://www.w3schools.com/"
+            "name": "FreeCodeCamp",
+            "source": "https://www.freecodecamp.org/",
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+          },
+          {
+            "id": "3",
+            "name": "Linkedin Course",
+            "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+          },
+          {
+            "id": "3",
+            "name": "Coursera",
+            "source": "https://www.coursera.org/learn/web-development",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
           }
         ]
       },
@@ -29,13 +44,27 @@
         "links": [
           {
             "id": "1",
-            "name": "w3school",
-            "source": "https://www.w3schools.com/"
+            "name": "W3School",
+            "source": "https://www.w3schools.com/",
+            "image": "https://i.imgur.com/papcQzP.png"
           },
           {
             "id": "2",
-            "name": "w3school 2",
-            "source": "https://www.w3schools.com/"
+            "name": "FreeCodeCamp",
+            "source": "https://www.freecodecamp.org/",
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+          },
+          {
+            "id": "3",
+            "name": "Linkedin Course",
+            "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+          },
+          {
+            "id": "3",
+            "name": "Coursera",
+            "source": "https://www.coursera.org/learn/web-development",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
           }
         ]
       },
@@ -47,13 +76,27 @@
         "links": [
           {
             "id": "1",
-            "name": "w3school",
-            "source": "https://www.w3schools.com/"
+            "name": "W3School",
+            "source": "https://www.w3schools.com/",
+            "image": "https://i.imgur.com/papcQzP.png"
           },
           {
             "id": "2",
-            "name": "w3school 2",
-            "source": "https://www.w3schools.com/"
+            "name": "FreeCodeCamp",
+            "source": "https://www.freecodecamp.org/",
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+          },
+          {
+            "id": "3",
+            "name": "Linkedin Course",
+            "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+          },
+          {
+            "id": "3",
+            "name": "Coursera",
+            "source": "https://www.coursera.org/learn/web-development",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
           }
         ]
       },
@@ -65,13 +108,27 @@
         "links": [
           {
             "id": "1",
-            "name": "w3school",
-            "source": "https://www.w3schools.com/"
+            "name": "W3School",
+            "source": "https://www.w3schools.com/",
+            "image": "https://i.imgur.com/papcQzP.png"
           },
           {
             "id": "2",
-            "name": "w3school 2",
-            "source": "https://www.w3schools.com/"
+            "name": "FreeCodeCamp",
+            "source": "https://www.freecodecamp.org/",
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+          },
+          {
+            "id": "3",
+            "name": "Linkedin Course",
+            "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+          },
+          {
+            "id": "3",
+            "name": "Coursera",
+            "source": "https://www.coursera.org/learn/web-development",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
           }
         ]
       },
@@ -83,13 +140,27 @@
         "links": [
           {
             "id": "1",
-            "name": "w3school",
-            "source": "https://www.w3schools.com/"
+            "name": "W3School",
+            "source": "https://www.w3schools.com/",
+            "image": "https://i.imgur.com/papcQzP.png"
           },
           {
             "id": "2",
-            "name": "w3school 2",
-            "source": "https://www.w3schools.com/"
+            "name": "FreeCodeCamp",
+            "source": "https://www.freecodecamp.org/",
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+          },
+          {
+            "id": "3",
+            "name": "Linkedin Course",
+            "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+          },
+          {
+            "id": "3",
+            "name": "Coursera",
+            "source": "https://www.coursera.org/learn/web-development",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
           }
         ]
       },
@@ -101,13 +172,27 @@
         "links": [
           {
             "id": "1",
-            "name": "w3school",
-            "source": "https://www.w3schools.com/"
+            "name": "W3School",
+            "source": "https://www.w3schools.com/",
+            "image": "https://i.imgur.com/papcQzP.png"
           },
           {
             "id": "2",
-            "name": "w3school 2",
-            "source": "https://www.w3schools.com/"
+            "name": "FreeCodeCamp",
+            "source": "https://www.freecodecamp.org/",
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+          },
+          {
+            "id": "3",
+            "name": "Linkedin Course",
+            "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+          },
+          {
+            "id": "3",
+            "name": "Coursera",
+            "source": "https://www.coursera.org/learn/web-development",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
           }
         ]
       },
@@ -119,13 +204,27 @@
         "links": [
           {
             "id": "1",
-            "name": "w3school",
-            "source": "https://www.w3schools.com/"
+            "name": "W3School",
+            "source": "https://www.w3schools.com/",
+            "image": "https://i.imgur.com/papcQzP.png"
           },
           {
             "id": "2",
-            "name": "w3school 2",
-            "source": "https://www.w3schools.com/"
+            "name": "FreeCodeCamp",
+            "source": "https://www.freecodecamp.org/",
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+          },
+          {
+            "id": "3",
+            "name": "Linkedin Course",
+            "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+          },
+          {
+            "id": "3",
+            "name": "Coursera",
+            "source": "https://www.coursera.org/learn/web-development",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
           }
         ]
       },
@@ -137,13 +236,27 @@
         "links": [
           {
             "id": "1",
-            "name": "w3school",
-            "source": "https://www.w3schools.com/"
+            "name": "W3School",
+            "source": "https://www.w3schools.com/",
+            "image": "https://i.imgur.com/papcQzP.png"
           },
           {
             "id": "2",
-            "name": "w3school 2",
-            "source": "https://www.w3schools.com/"
+            "name": "FreeCodeCamp",
+            "source": "https://www.freecodecamp.org/",
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+          },
+          {
+            "id": "3",
+            "name": "Linkedin Course",
+            "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+          },
+          {
+            "id": "3",
+            "name": "Coursera",
+            "source": "https://www.coursera.org/learn/web-development",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
           }
         ]
       }

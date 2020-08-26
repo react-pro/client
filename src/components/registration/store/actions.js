@@ -22,7 +22,7 @@ function register(user) {
         user => {
           dispatch(success(user.user[0]));
           history.push('/login');
-          dispatch(alertActions.success('Registration successful'));
+          dispatch(alertActions.success('Registration successful ', '/login'));
         },
         error => {
           dispatch(failure(error.toString()));

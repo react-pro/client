@@ -2,7 +2,7 @@ import './technology.scss';
 
 import React from 'react';
 import { Col, Button } from 'reactstrap';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
@@ -10,8 +10,7 @@ const Technology = ({ test }) => {
 
   return (
     <Col lg="3" md="6" xs="12">
-      {/* <Link to={`/learning/${test.id}`} className="technology__link"> */}
-      <NavLink to={`/learning/${test.id}`} className="button__link">
+      <Link to={`/learning/${test.id}`} className="technology__link">
         <div className="technology__item">
           <div className="technology__info">
               <div className="technology__circular">
@@ -34,8 +33,7 @@ const Technology = ({ test }) => {
             <Button color="danger">Learn more</Button>
           </div>
         </div>
-      {/* </Link> */}
-      </NavLink>
+      </Link>
     </Col>
   );
 };
