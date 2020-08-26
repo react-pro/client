@@ -8,7 +8,6 @@ import {useDispatch, useSelector} from "react-redux";
 import {alertActions} from "./components/alerts/actions";
 import LoginPage from "./components/login";
 import Header from './shared/header/Header';
-import About from './components/about/About';
 import RoadMap from './components/roadmap';
 import Quiz from './components/quiz/Quiz';
 import Resume from './components/resume/Resume';
@@ -41,7 +40,6 @@ const App = () => {
           <Route path="/login" component={LoginPage} />
           <Route path="/register" component={RegisterPage} />
           <Route path="/units" component={UnitsPage} />
-          <Route exact path='/about' component={About} />
           <Route exact path='/quiz' component={Quiz} />
           <Route exact path='/resume' component={Resume} />
           <Route exact path='/learning/:id' render={({ location, match }) => <LearningItem match={match} />} />
