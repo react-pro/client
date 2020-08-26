@@ -2,54 +2,150 @@
   {
     "id": 1,
     "name": "Skills",
-    "testPreviewDTOSet": [
+    "technologies": [
       {
         "id": "1",
         "name": "Internet",
         "description": "Master Writing Professional and Modern Internet",
-        "technologyScore": "30"
+        "technologyScore": "30",
+        "links": [
+          {
+            "id": "1",
+            "name": "w3school",
+            "source": "https://www.w3schools.com/"
+          },
+          {
+            "id": "2",
+            "name": "w3school 2",
+            "source": "https://www.w3schools.com/"
+          }
+        ]
       },
       {
         "id": "2",
         "name": "Html",
         "description": "Master Writing Professional and Modern Html",
-        "technologyScore": "50"
+        "technologyScore": "50",
+        "links": [
+          {
+            "id": "1",
+            "name": "w3school",
+            "source": "https://www.w3schools.com/"
+          },
+          {
+            "id": "2",
+            "name": "w3school 2",
+            "source": "https://www.w3schools.com/"
+          }
+        ]
       },
       {
         "id": "3",
         "name": "Css",
         "description": "Master Writing Professional and Modern CSS",
-        "technologyScore": "80"
+        "technologyScore": "80",
+        "links": [
+          {
+            "id": "1",
+            "name": "w3school",
+            "source": "https://www.w3schools.com/"
+          },
+          {
+            "id": "2",
+            "name": "w3school 2",
+            "source": "https://www.w3schools.com/"
+          }
+        ]
       },
       {
         "id": "4",
         "name": "Javascript",
         "description": "Master Writing Professional and Modern JavaScript",
-        "technologyScore": "80"
+        "technologyScore": "80",
+        "links": [
+          {
+            "id": "1",
+            "name": "w3school",
+            "source": "https://www.w3schools.com/"
+          },
+          {
+            "id": "2",
+            "name": "w3school 2",
+            "source": "https://www.w3schools.com/"
+          }
+        ]
       },
       {
         "id": "5",
         "name": "Angular",
         "description": "Master Writing Professional and Modern Angular",
-        "technologyScore": "80"
+        "technologyScore": "80",
+        "links": [
+          {
+            "id": "1",
+            "name": "w3school",
+            "source": "https://www.w3schools.com/"
+          },
+          {
+            "id": "2",
+            "name": "w3school 2",
+            "source": "https://www.w3schools.com/"
+          }
+        ]
       },
       {
         "id": "6",
         "name": "React",
         "description": "Master Writing Professional and Modern Raact",
-        "technologyScore": "80"
+        "technologyScore": "80",
+        "links": [
+          {
+            "id": "1",
+            "name": "w3school",
+            "source": "https://www.w3schools.com/"
+          },
+          {
+            "id": "2",
+            "name": "w3school 2",
+            "source": "https://www.w3schools.com/"
+          }
+        ]
       },
       {
         "id": "7",
         "name": "Git",
         "description": "Master Writing Professional and Modern Git",
-        "technologyScore": "80"
+        "technologyScore": "80",
+        "links": [
+          {
+            "id": "1",
+            "name": "w3school",
+            "source": "https://www.w3schools.com/"
+          },
+          {
+            "id": "2",
+            "name": "w3school 2",
+            "source": "https://www.w3schools.com/"
+          }
+        ]
       },
       {
         "id": "8",
         "name": "Vue.js",
         "description": "Master Writing Professional and Modern Vue.js",
-        "technologyScore": "80"
+        "technologyScore": "80",
+        "links": [
+          {
+            "id": "1",
+            "name": "w3school",
+            "source": "https://www.w3schools.com/"
+          },
+          {
+            "id": "2",
+            "name": "w3school 2",
+            "source": "https://www.w3schools.com/"
+          }
+        ]
       }
     ]
   }
