@@ -11,7 +11,7 @@ export const userService = {
 function sendResults(id, results) {
   const requestOptions = {
     method: 'POST',
-    headers: {'Authorization': `${JSON.parse(localStorage.getItem('user')).token}`},
+    headers: {'Authorization': `JWT ${JSON.parse(localStorage.getItem('user')).token}`},
     body: JSON.stringify({ results })
   };
 

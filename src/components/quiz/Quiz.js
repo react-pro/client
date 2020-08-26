@@ -574,7 +574,6 @@ const Quiz = props => {
 		];
 		// props.history.push('/resume');
 
-		console.log(response);
 		const id = localStorage.getItem('id');
 		dispatch(sendQuizResults(id, response));
   };
