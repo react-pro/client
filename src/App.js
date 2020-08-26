@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import './App.css';
 import { RegisterPage } from "./components/registration";
-import { Redirect, Route, BrowserRouter as Router, Switch} from "react-router-dom";
+import {Redirect, Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import { history } from './components/_helpers/history'
 import { HomePage } from "./components/home";
 import {useDispatch, useSelector} from "react-redux";
@@ -12,6 +12,7 @@ import Footer from './shared/footer/Footer';
 import About from './components/about/About';
 import Test from './components/test/Test';
 import Resume from './components/resume/Resume';
+import Alert from "react-bootstrap/Alert";
 
 const App = () => {
   const alert = useSelector(state => state.alert);
@@ -25,10 +26,12 @@ const App = () => {
 
   return (
     <div className="App">
-      <Router history={history}>
+      <Router history={history} forceRefresh={true}>
         <Header />
         {alert.message &&
-        <div>{alert.message}</div>
+          <Alert variant='info' style={{ textAlign: "center"}}>
+            {alert.message}
+          </Alert>
         }
         <Switch>
           <Route exact path="/" component={HomePage} />

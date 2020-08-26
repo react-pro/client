@@ -29,28 +29,28 @@ function RegisterPage() {
   }
 
   return (
-    <div className=" ">
+    <div style={{ width: "40%", margin: "0 auto" }}>
       <h2>Register</h2>
       <form name="form" onSubmit={handleSubmit}>
         <div className="form-group">
           <label>Your Name</label>
           <input type="text" name="name" value={user.name} onChange={handleChange} className={'form-control' + (submitted && !user.name ? ' is-invalid' : '')} />
           {submitted && !user.name &&
-          <div className=" ">Name is required</div>
+          <div className="text-muted">Name is required</div>
           }
         </div>
         <div className="form-group">
           <label>Email</label>
           <input type="email" name="email" value={user.email} onChange={handleChange} className={'form-control' + (submitted && !user.email ? ' is-invalid' : '')} />
           {submitted && !user.email &&
-          <div className=" ">Email is required</div>
+          <div className="text-muted">Email is required</div>
           }
         </div>
         <div className="form-group">
           <label>Password</label>
           <input type="password" name="password" value={user.password} onChange={handleChange} className={'form-control' + (submitted && !user.password ? ' is-invalid' : '')} />
           {submitted && !user.password &&
-          <div className=" ">Password is required</div>
+          <div className="text-muted">Password is required</div>
           }
         </div>
         <div className="form-group">

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 
 import {userActionsAuth} from "./store/actions";
+import Button from "react-bootstrap/Button";
 
 function LoginPage() {
   const [inputs, setInputs] = useState({
@@ -31,30 +32,35 @@ function LoginPage() {
   }
 
   return (
-    <div className=" ">
+    <div style={{ width: "35%", margin: "0 auto" }}>
       <h2>Login</h2>
       <form name="form" onSubmit={handleSubmit}>
         <div className="form-group">
-          <label>email</label>
+          <label>Email</label>
           <input type="text" name="email" value={email} onChange={handleChange} className={'form-control' + (submitted && !email ? ' is-invalid' : '')} />
           {submitted && !email &&
-          <div className=" ">email is required</div>
+          <div className="text-muted">email is required</div>
           }
         </div>
         <div className="form-group">
           <label>Password</label>
           <input type="password" name="password" value={password} onChange={handleChange} className={'form-control' + (submitted && !password ? ' is-invalid' : '')} />
           {submitted && !password &&
-          <div className="">Password is required</div>
+          <div className="text-muted">Password is required</div>
           }
         </div>
         <div className="form-group">
-          <button className=" " >
-            {loggingIn && <span className="spinner"></span>}
+          <button className="btn btn-primary" >
+            {loggingIn && <span className="spinner border"> </span>}
             Login
           </button>
-          <Link to={"/register"}>Register</Link>
-          <Link to={"/"}>Back</Link>
+
+          <Link to={"/register"}>
+            <Button variant="btn">Register</Button>
+          </Link>
+          <Link to={"/"}>
+            <Button variant="btn">Back</Button>
+          </Link>
         </div>
       </form>
     </div>

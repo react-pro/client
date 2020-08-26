@@ -18,12 +18,13 @@ function login(email, password) {
         user => {
           dispatch(success(user.user));
           history.push('/');
+          dispatch(alertActions.success('Login successful!'));
         },
         error => {
           dispatch(failure(error.toString()));
           dispatch(alertActions.error(error.toString()));
         },
-      );
+      )
   };
 
   function request(user) { return { type: LOGIN_REQUEST, user } }
