@@ -2,54 +2,263 @@
   {
     "id": 1,
     "name": "Skills",
-    "testPreviewDTOSet": [
+    "technologies": [
       {
         "id": "1",
         "name": "Internet",
         "description": "Master Writing Professional and Modern Internet",
-        "technologyScore": "30"
+        "technologyScore": "30",
+        "links": [
+          {
+            "id": "1",
+            "name": "W3School",
+            "source": "https://www.w3schools.com/",
+            "image": "https://i.imgur.com/papcQzP.png",
+            "description": "W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C++, C#, React, Node.js, XML, W3.CSS, and Bootstrap, covering most aspects of web programming."
+          },
+          {
+            "id": "2",
+            "name": "FreeCodeCamp",
+            "source": "https://www.freecodecamp.org/",
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+          },
+          {
+            "id": "3",
+            "name": "Linkedin Course",
+            "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+          },
+          {
+            "id": "3",
+            "name": "Coursera",
+            "source": "https://www.coursera.org/learn/web-development",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
+          }
+        ]
       },
       {
         "id": "2",
         "name": "Html",
         "description": "Master Writing Professional and Modern Html",
-        "technologyScore": "50"
+        "technologyScore": "50",
+        "links": [
+          {
+            "id": "1",
+            "name": "W3School",
+            "source": "https://www.w3schools.com/",
+            "image": "https://i.imgur.com/papcQzP.png"
+          },
+          {
+            "id": "2",
+            "name": "FreeCodeCamp",
+            "source": "https://www.freecodecamp.org/",
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+          },
+          {
+            "id": "3",
+            "name": "Linkedin Course",
+            "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+          },
+          {
+            "id": "3",
+            "name": "Coursera",
+            "source": "https://www.coursera.org/learn/web-development",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
+          }
+        ]
       },
       {
         "id": "3",
         "name": "Css",
         "description": "Master Writing Professional and Modern CSS",
-        "technologyScore": "80"
+        "technologyScore": "80",
+        "links": [
+          {
+            "id": "1",
+            "name": "W3School",
+            "source": "https://www.w3schools.com/",
+            "image": "https://i.imgur.com/papcQzP.png"
+          },
+          {
+            "id": "2",
+            "name": "FreeCodeCamp",
+            "source": "https://www.freecodecamp.org/",
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+          },
+          {
+            "id": "3",
+            "name": "Linkedin Course",
+            "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+          },
+          {
+            "id": "3",
+            "name": "Coursera",
+            "source": "https://www.coursera.org/learn/web-development",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
+          }
+        ]
       },
       {
         "id": "4",
         "name": "Javascript",
         "description": "Master Writing Professional and Modern JavaScript",
-        "technologyScore": "80"
+        "technologyScore": "80",
+        "links": [
+          {
+            "id": "1",
+            "name": "W3School",
+            "source": "https://www.w3schools.com/",
+            "image": "https://i.imgur.com/papcQzP.png"
+          },
+          {
+            "id": "2",
+            "name": "FreeCodeCamp",
+            "source": "https://www.freecodecamp.org/",
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+          },
+          {
+            "id": "3",
+            "name": "Linkedin Course",
+            "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+          },
+          {
+            "id": "3",
+            "name": "Coursera",
+            "source": "https://www.coursera.org/learn/web-development",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
+          }
+        ]
       },
       {
         "id": "5",
         "name": "Angular",
         "description": "Master Writing Professional and Modern Angular",
-        "technologyScore": "80"
+        "technologyScore": "80",
+        "links": [
+          {
+            "id": "1",
+            "name": "W3School",
+            "source": "https://www.w3schools.com/",
+            "image": "https://i.imgur.com/papcQzP.png"
+          },
+          {
+            "id": "2",
+            "name": "FreeCodeCamp",
+            "source": "https://www.freecodecamp.org/",
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+          },
+          {
+            "id": "3",
+            "name": "Linkedin Course",
+            "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+          },
+          {
+            "id": "3",
+            "name": "Coursera",
+            "source": "https://www.coursera.org/learn/web-development",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
+          }
+        ]
       },
       {
         "id": "6",
         "name": "React",
         "description": "Master Writing Professional and Modern Raact",
-        "technologyScore": "80"
+        "technologyScore": "80",
+        "links": [
+          {
+            "id": "1",
+            "name": "W3School",
+            "source": "https://www.w3schools.com/",
+            "image": "https://i.imgur.com/papcQzP.png"
+          },
+          {
+            "id": "2",
+            "name": "FreeCodeCamp",
+            "source": "https://www.freecodecamp.org/",
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+          },
+          {
+            "id": "3",
+            "name": "Linkedin Course",
+            "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+          },
+          {
+            "id": "3",
+            "name": "Coursera",
+            "source": "https://www.coursera.org/learn/web-development",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
+          }
+        ]
       },
       {
         "id": "7",
         "name": "Git",
         "description": "Master Writing Professional and Modern Git",
-        "technologyScore": "80"
+        "technologyScore": "80",
+        "links": [
+          {
+            "id": "1",
+            "name": "W3School",
+            "source": "https://www.w3schools.com/",
+            "image": "https://i.imgur.com/papcQzP.png"
+          },
+          {
+            "id": "2",
+            "name": "FreeCodeCamp",
+            "source": "https://www.freecodecamp.org/",
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+          },
+          {
+            "id": "3",
+            "name": "Linkedin Course",
+            "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+          },
+          {
+            "id": "3",
+            "name": "Coursera",
+            "source": "https://www.coursera.org/learn/web-development",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
+          }
+        ]
       },
       {
         "id": "8",
         "name": "Vue.js",
         "description": "Master Writing Professional and Modern Vue.js",
-        "technologyScore": "80"
+        "technologyScore": "80",
+        "links": [
+          {
+            "id": "1",
+            "name": "W3School",
+            "source": "https://www.w3schools.com/",
+            "image": "https://i.imgur.com/papcQzP.png"
+          },
+          {
+            "id": "2",
+            "name": "FreeCodeCamp",
+            "source": "https://www.freecodecamp.org/",
+            "image": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg"
+          },
+          {
+            "id": "3",
+            "name": "Linkedin Course",
+            "source": "https://www.linkedin.com/learning/search?keywords=internet&u=2113185",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/768px-Linkedin.svg.png"
+          },
+          {
+            "id": "3",
+            "name": "Coursera",
+            "source": "https://www.coursera.org/learn/web-development",
+            "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1"
+          }
+        ]
       }
     ]
   }

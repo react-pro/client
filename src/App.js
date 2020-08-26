@@ -11,6 +11,7 @@ import Header from './shared/header/Header';
 import About from './components/about/About';
 import Quiz from './components/quiz/Quiz';
 import Resume from './components/resume/Resume';
+import LearningItem from './components/learning-portal/components/learning-item/Learning-item';
 import Alert from "react-bootstrap/Alert";
 import UnitsPage from "./components/units";
 
@@ -42,6 +43,7 @@ const App = () => {
           <Route exact path='/about' component={About} />
           <Route exact path='/quiz' component={Quiz} />
           <Route exact path='/resume' component={Resume} />
+          <Route exact path='/learning/:id' render={({ location, match }) => <LearningItem match={match} />} />
           <Redirect from="*" to="/" />
         </Switch>
       </Router>
