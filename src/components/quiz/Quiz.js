@@ -1,7 +1,9 @@
 import './Quiz.scss';
 
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import {useDispatch} from "react-redux";
+import {sendQuizResults} from "./store/actions";
 
 const Quiz = () => {
 	const [questions] = useState([
@@ -489,6 +491,8 @@ const Quiz = () => {
   const [currentAnswer, setCurrentAnswer] = useState(null);
   const [isQuizFinished, setIsQuizFinished] = useState(false);
 
+	const dispatch = useDispatch();
+
   const nextQuestionHandler = () => {
     if (currentQuestion < questions.length - 1) {
       if (activeAnswer != null) {
@@ -537,8 +541,11 @@ const Quiz = () => {
       },
     ];
 
-    console.log(response);
+		console.log(response);
+		const id = localStorage.getItem('id');
+		dispatch(sendQuizResults(id, response));
   };
+
 
   return (
     <Container>

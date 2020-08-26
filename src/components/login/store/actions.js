@@ -17,6 +17,7 @@ function login(email, password) {
       .then(
         user => {
           dispatch(success(user.user));
+          localStorage.setItem('id', user.user._id)
           history.push('/');
           dispatch(alertActions.success('Login successful! ', '/units'));
         },

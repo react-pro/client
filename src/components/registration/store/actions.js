@@ -12,7 +12,6 @@ export const userActionRegister = {
   register,
 };
 
-
 function register(user) {
   return dispatch => {
     dispatch(request(user));
