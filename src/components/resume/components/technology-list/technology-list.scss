@@ -1,0 +1,11 @@
+@import './../../../../styles/plugins/variables';
+
+.technology-list {
+  &__title {
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #E5E5E5;
+  }
+}
