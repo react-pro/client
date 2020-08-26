@@ -1,8 +1,9 @@
 import './Quiz.scss';
 
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-// import { useHistory } from 'react-router-dom';
+import {useDispatch} from "react-redux";
+import {sendQuizResults} from "./store/actions";
 
 const Quiz = props => {
 	// const history = useHistory();
@@ -510,20 +511,21 @@ const Quiz = props => {
 	const [activeAnswer, setActiveAnswer] = useState(null);
 	const [currentAnswer, setCurrentAnswer] = useState(null);
 	const [isQuizFinished, setIsQuizFinished] = useState(false);
+	const dispatch = useDispatch();
 
-	const nextQuestionHandler = () => {
-		if (currentQuestion < questions.length - 1) {
-			if (activeAnswer != null) {
-				setCurrentQuestion(prev => prev + 1);
-				setActiveAnswer(null);
-			} else {
-				console.error('please chose one answer!');
-			}
-		} else {
-			setIsQuizFinished(true);
-		}
-		setAnswers(prev => prev.concat(currentAnswer));
-	};
+  const nextQuestionHandler = () => {
+    if (currentQuestion < questions.length - 1) {
+      if (activeAnswer != null) {
+        setCurrentQuestion((prev) => prev + 1);
+        setActiveAnswer(null);
+      } else {
+        console.error('please chose one answer!');
+      }
+    } else {
+      setIsQuizFinished(true);
+    }
+    setAnswers((prev) => prev.concat(currentAnswer));
+  };
 
 	const answerClickHandler = (answer, index) => {
 		setActiveAnswer(index);
@@ -570,44 +572,50 @@ const Quiz = props => {
 				direction: direction.answer
 			}
 		];
-		props.history.push('/resume');
+		// props.history.push('/resume');
 
 		console.log(response);
-	};
+		const id = localStorage.getItem('id');
+		dispatch(sendQuizResults(id, response));
+  };
 
-	return (
-		<Container>
-			<Row>
-				<Col lg="6" md="6" xs="12" className="quiz">
-					<Card className="quiz__card">
-						<Card.Body className="quiz__container">
-							<Card.Title className="quiz__title">{questions[currentQuestion].question}</Card.Title>
-							<ul>
-								{questions[currentQuestion].answers.map((answer, index) => {
-									return (
-										<li className={`${index === activeAnswer ? 'active-answer' : null}`} onClick={() => answerClickHandler(answer, index)} key={index}>
-											{answer.answer}
-										</li>
-									);
-								})}
-							</ul>
-							<div className="quiz__button">
-								{!isQuizFinished ? (
-									<Button onClick={nextQuestionHandler} variant="danger">
-										Answer
-									</Button>
-								) : (
-									<Button onClick={finishQuizHandler} variant="danger">
-										Finish quiz
-									</Button>
-								)}
-							</div>
-						</Card.Body>
-					</Card>
-				</Col>
-			</Row>
-		</Container>
-	);
+  return (
+    <Container>
+      <Row>
+        <Col lg='6' md='6' xs='12' className='quiz'>
+          <Card className='quiz__card'>
+            <Card.Body className='quiz__container'>
+              <Card.Title className='quiz__title'>{questions[currentQuestion].question}</Card.Title>
+              <ul>
+                {questions[currentQuestion].answers.map((answer, index) => {
+                  return (
+                    <li
+                      className={`${index === activeAnswer ? 'active-answer' : null}`}
+                      onClick={() => answerClickHandler(answer, index)}
+                      key={index}
+                    >
+                      {answer.answer}
+                    </li>
+                  );
+                })}
+              </ul>
+              <div className='quiz__button'>
+                {!isQuizFinished ? (
+                  <Button onClick={nextQuestionHandler} variant='danger'>
+                    Answer
+                  </Button>
+                ) : (
+                  <Button onClick={finishQuizHandler} variant='danger'>
+                    Finish quiz
+                  </Button>
+                )}
+              </div>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+    </Container>
+  );
 };
 
 export default Quiz;
