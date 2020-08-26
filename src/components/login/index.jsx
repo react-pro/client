@@ -55,9 +55,6 @@ function LoginPage() {
             Login
           </button>
 
-          <Link to={"/register"}>
-            <Button variant="btn">Register</Button>
-          </Link>
           <Link to={"/"}>
             <Button variant="btn">Back</Button>
           </Link>
