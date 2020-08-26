@@ -18,11 +18,11 @@ const getLinks = (links) => {
     })
 }
 
-const getListItems = (tech) => {
-    return tech.map((el, i) => {
-        return React.createElement('a', { href: el.source, className:'skills-link', key: `key-${i}`}, el.name );
-    })
-}
+// const getListItems = (tech) => {
+//     return tech.map((el, i) => {
+//         return React.createElement('a', { href: el.source, className:'skills-link', key: `key-${i}`}, el.name );
+//     })
+// }
 
 let links = [
         {
@@ -63,17 +63,17 @@ let links = [
 //     children: SkillType[];
 //   }
 
-const transformData = (res) => {
-    let newData = {
-        id: res._id,
-        title: res.name,
-        closedByDefault: res.completed || false,
-        tooltip: {
-            content: 1 ? getLinks(res.links) : getListItems(res.links),
-        }
-
-    }
-}
+// const transformData = (res) => {
+//     let newData = {
+//         id: res._id,
+//         title: res.name,
+//         closedByDefault: res.completed || false,
+//         tooltip: {
+//             content: 1 ? getLinks(res.links) : getListItems(res.links),
+//         }
+//
+//     }
+// }
 
   const data1 = [
     {
@@ -124,10 +124,10 @@ const transformData = (res) => {
 const RoadMap = () => {
     const dispatch = useDispatch();
     const [loading, setLoading] = useState(false);
-    const [error, setError] = useState({});
-    const [data, setData] = useState({});
+    const [ , setError] = useState({});
+    const [ , setData] = useState({});
     const storedSkills = useSelector((state) => state.skills);
-    const user = useSelector((state) => state.authentication.user);
+    // const user = useSelector((state) => state.authentication.user);
     const storedUser = JSON.parse(localStorage.getItem('user'));
 
     async function fetchData() {
@@ -143,7 +143,7 @@ const RoadMap = () => {
 
     useEffect(() => {
         fetchData();
-    }, []);
+    });
 
     useEffect(() => {
         if (storedSkills) {
