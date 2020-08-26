@@ -483,94 +483,100 @@ const Quiz = () => {
 		}
 	]);
 
-	const [answers, setAnswers] = useState([]);
-	const [currentQuestion, setCurrentQuestion] = useState(0);
-	const [activeAnswer, setActiveAnswer] = useState(null);
-	const [currentAnswer, setCurrentAnswer] = useState(null);
-	const [isQuizFinished, setIsQuizFinished] = useState(false);
+  const [answers, setAnswers] = useState([]);
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [activeAnswer, setActiveAnswer] = useState(null);
+  const [currentAnswer, setCurrentAnswer] = useState(null);
+  const [isQuizFinished, setIsQuizFinished] = useState(false);
 
-	const nextQuestionHandler = () => {
-		if (currentQuestion < questions.length - 1) {
-			if (activeAnswer != null) {
-				setCurrentQuestion(prev => prev + 1);
-				setActiveAnswer(null);
-			} else {
-				console.error('please chose one answer!');
-			}
-		} else {
-			setIsQuizFinished(true);
-		}
-		setAnswers(prev => prev.concat(currentAnswer));
-	};
+  const nextQuestionHandler = () => {
+    if (currentQuestion < questions.length - 1) {
+      if (activeAnswer != null) {
+        setCurrentQuestion((prev) => prev + 1);
+        setActiveAnswer(null);
+      } else {
+        console.error('please chose one answer!');
+      }
+    } else {
+      setIsQuizFinished(true);
+    }
+    setAnswers((prev) => prev.concat(currentAnswer));
+  };
 
-	const answerClickHandler = (answer, index) => {
-		setActiveAnswer(index);
-		setCurrentAnswer({
-			id: questions[currentQuestion].id,
-			category: questions[currentQuestion].category,
-			isCorrect: answer.id === questions[currentQuestion].correctAnswer
-		});
-	};
+  const answerClickHandler = (answer, index) => {
+    setActiveAnswer(index);
+    setCurrentAnswer({
+      id: questions[currentQuestion].id,
+      category: questions[currentQuestion].category,
+      isCorrect: answer.id === questions[currentQuestion].correctAnswer,
+    });
+  };
 
-	const finishQuizHandler = () => {
-		const html = answers.filter(answer => answer.category === 'html');
-		const internet = answers.filter(answer => answer.category === 'internet');
-		const css = answers.filter(answer => answer.category === 'css');
-		const javascript = answers.filter(answer => answer.category === 'javascript');
+  const finishQuizHandler = () => {
+    const html = answers.filter((answer) => answer.category === 'html');
+    const internet = answers.filter((answer) => answer.category === 'internet');
+    const css = answers.filter((answer) => answer.category === 'css');
+    const javascript = answers.filter((answer) => answer.category === 'javascript');
 
-		const response = [
-			{
-				name: 'html',
-				level: (html.filter(answer => answer.isCorrect).length / html.length) * 100
-			},
-			{
-				name: 'internet',
-				level: (internet.filter(answer => answer.isCorrect).length / internet.length) * 100
-			},
-			{
-				name: 'css',
-				level: (css.filter(answer => answer.isCorrect).length / css.length) * 100
-			},
-			{
-				name: 'javascript',
-				level: (javascript.filter(answer => answer.isCorrect).length / javascript.length) * 100
-			}
-		];
+    const response = [
+      {
+        name: 'html',
+        level: (html.filter((answer) => answer.isCorrect).length / html.length) * 100,
+      },
+      {
+        name: 'internet',
+        level: (internet.filter((answer) => answer.isCorrect).length / internet.length) * 100,
+      },
+      {
+        name: 'css',
+        level: (css.filter((answer) => answer.isCorrect).length / css.length) * 100,
+      },
+      {
+        name: 'javascript',
+        level: (javascript.filter((answer) => answer.isCorrect).length / javascript.length) * 100,
+      },
+    ];
 
-		console.log(response);
-	};
+    console.log(response);
+  };
 
-	return (
-		<Container>
-			<Row>
-				<Col>
-					<Card>
-						<Card.Body>
-							<Card.Title>{questions[currentQuestion].question}</Card.Title>
-							<ul>
-								{questions[currentQuestion].answers.map((answer, index) => {
-									return (
-										<li className={`${index === activeAnswer ? 'active-answer' : null}`} onClick={() => answerClickHandler(answer, index)} key={index}>
-											{answer.answer}
-										</li>
-									);
-								})}
-							</ul>
-							{!isQuizFinished ? (
-								<Button onClick={nextQuestionHandler} variant="primary">
-									Answer
-								</Button>
-							) : (
-								<Button onClick={finishQuizHandler} variant="primary">
-									Finish quiz
-								</Button>
-							)}
-						</Card.Body>
-					</Card>
-				</Col>
-			</Row>
-		</Container>
-	);
+  return (
+    <Container>
+      <Row>
+        <Col lg='6' md='6' xs='12' className='quiz'>
+          <Card className='quiz__card'>
+            <Card.Body className='quiz__container'>
+              <Card.Title className='quiz__title'>{questions[currentQuestion].question}</Card.Title>
+              <ul>
+                {questions[currentQuestion].answers.map((answer, index) => {
+                  return (
+                    <li
+                      className={`${index === activeAnswer ? 'active-answer' : null}`}
+                      onClick={() => answerClickHandler(answer, index)}
+                      key={index}
+                    >
+                      {answer.answer}
+                    </li>
+                  );
+                })}
+              </ul>
+              <div className='quiz__button'>
+                {!isQuizFinished ? (
+                  <Button onClick={nextQuestionHandler} variant='danger'>
+                    Answer
+                  </Button>
+                ) : (
+                  <Button onClick={finishQuizHandler} variant='danger'>
+                    Finish quiz
+                  </Button>
+                )}
+              </div>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+    </Container>
+  );
 };
 
 export default Quiz;
