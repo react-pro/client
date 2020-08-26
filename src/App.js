@@ -9,6 +9,7 @@ import {alertActions} from "./components/alerts/actions";
 import LoginPage from "./components/login";
 import Header from './shared/header/Header';
 import About from './components/about/About';
+import RoadMap from './components/roadmap';
 import Quiz from './components/quiz/Quiz';
 import Resume from './components/resume/Resume';
 import LearningItem from './components/learning-portal/components/learning-item/Learning-item';
@@ -24,7 +25,7 @@ const App = () => {
       dispatch(alertActions.clear());
     });
   }, );
-
+  
   return (
     <div className="App">
       <Router history={history} forceRefresh={true}>
@@ -44,6 +45,7 @@ const App = () => {
           <Route exact path='/quiz' component={Quiz} />
           <Route exact path='/resume' component={Resume} />
           <Route exact path='/learning/:id' render={({ location, match }) => <LearningItem match={match} />} />
+          <Route exact path='/road-map' component={RoadMap} />          
           <Redirect from="*" to="/" />
         </Switch>
       </Router>

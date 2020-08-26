@@ -7,3 +7,14 @@
 }
 
 
+.tippy-tooltip {
+    color: #000 !important;
+}
+
+.tippy-tooltip  h1 {
+    font-size: 16px;
+}
+
+.skills-link {
+    display: block;
+}
